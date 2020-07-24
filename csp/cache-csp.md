@@ -12,8 +12,9 @@
 
 ## 设置方法：
 ### 前端：
+```html
 <meta http-equiv='Content-Security-Policy' content="default-src 'self'; img-src https://*; script-src https://test.test.com">
-
+```
 ### 后端
 ```javascript
 res.writeHead(200, {
